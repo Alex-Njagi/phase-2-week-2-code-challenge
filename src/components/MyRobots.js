@@ -24,6 +24,8 @@ export function YourBotArmy () {
 
 
     return (
-        {/*console.log();*/}
+        <Stack backgroundColor={'white'}>
+            <Text>DRAFTED BOTS!</Text>
+        </Stack>
     )
 }

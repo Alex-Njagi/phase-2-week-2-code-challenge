@@ -31,7 +31,7 @@ function App() {
         
         <Wrap spacingX={'96'}>
           <WrapItem>
-            
+            <YourBotArmy />
           </WrapItem>
 
           <WrapItem>
