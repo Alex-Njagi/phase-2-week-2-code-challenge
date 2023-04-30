@@ -9,11 +9,11 @@
 
 + First, the app contains a card that renders all the robots stored in the server. This card contains buttons for each robot record that allow the user to add them to the collection which is the second main component. In this component, the user is able to delete robots from their army both in the frontend and the backend. 
 
----------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------
 
 2. PROJECT SETUP
 + The project contains three main files:
-    + #1. <code color: 'red'>index.html</code> - Contains the content of the webpage
+    + #1. <code>index.html</code> - Contains the content of the webpage
     + #2. <code>index.js</code> - Contains the logic of the webpage
     + #3. <code>db.json</code> - Contains the data of the webpage
 
@@ -21,7 +21,7 @@
 
 + To install the project, open your terminal and copy the following to a directory:
 
-    <code>git@github.com:Alex-Njagi/phase-2-week-1-code-challenge.git</code>
+    <code>git@github.com:Alex-Njagi/phase-2-week-2-code-challenge.git</code>
 
 + Then navigate to the appropriate directory and in the terminal and type to load the backend server:
 
@@ -34,11 +34,9 @@
 + Followed by:
 
     <code>Y<code>
----------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------
 
 3. AUTHOR AND LICENSE
-+ This project was fully and wholly designed, coded, implemented and tested by Alex Njagi and was completed on Wednesday, 26th April, 2023.
++ This project is still incomplete as of Sunday, 30th April, 2023
 
-+ Licensed by MIT
-
----------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------
