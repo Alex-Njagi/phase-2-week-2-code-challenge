@@ -1,70 +1,44 @@
-# Getting Started with Create React App
+# MORINGA SCHOOL PHASE 2 WEEK 2 CODE CHALLENGE
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1>Welcome To Bot Battlr!</h1>
 
-## Available Scripts
+1. PROJECT DESCRIPTION
++ This project is titled "Bot Battlr"
 
-In the project directory, you can run:
++ It is an app that allows users to view, draft and delete robots in the Bot Battlr database! It uses a local API and is able to allow the user to perform those various activities. It contains two main components.
 
-### `npm start`
++ First, the app contains a card that renders all the robots stored in the server. This card contains buttons for each robot record that allow the user to add them to the collection which is the second main component. In this component, the user is able to delete robots from their army both in the frontend and the backend. 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---------------------------------------------------------------------------------------------------------
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+2. PROJECT SETUP
++ The project contains three main files:
+    + #1. <code color: 'red'>index.html</code> - Contains the content of the webpage
+    + #2. <code>index.js</code> - Contains the logic of the webpage
+    + #3. <code>db.json</code> - Contains the data of the webpage
 
-### `npm test`
++ The rest of the important files such as the components are spread across different folders in the application directory.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
++ To install the project, open your terminal and copy the following to a directory:
 
-### `npm run build`
+    <code>git@github.com:Alex-Njagi/phase-2-week-1-code-challenge.git</code>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
++ Then navigate to the appropriate directory and in the terminal and type to load the backend server:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+    <code>json-server --watch db/db.json</code>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
++ To launch the application in the browsers, type the folllowing in a separate terminal
 
-### `npm run eject`
+    <code>npm start</code>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
++ Followed by:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+    <code>Y<code>
+---------------------------------------------------------------------------------------------------------
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+3. AUTHOR AND LICENSE
++ This project was fully and wholly designed, coded, implemented and tested by Alex Njagi and was completed on Wednesday, 26th April, 2023.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
++ Licensed by MIT
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---------------------------------------------------------------------------------------------------------
